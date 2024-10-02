@@ -1,0 +1,21 @@
+/*__pycache__/
+dist/
+.env
+*.pyc
+*.DS_Store
+
+build/
+.vscode/
+wandb/
+
+*.out
+*.log
+
+temp*
+tmp*
+
+# directory
+checkpoints/
+logs/
+results/
+datasets/
