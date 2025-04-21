@@ -1,6 +1,7 @@
-# ThinkHub: Engage in Divergent Thinking with Implicit and Explicit Reasoning Memory
+# Typedthinker: Diversify Large Language Model Reasoning With Typed Thinking
 
-This is the code for the paper *ThinkHub: Engage in Divergent Thinking with Implicit and Explicit Reasoning Memory*.
+
+This is the code for the paper *Typedthinker: Diversify Large Language Model Reasoning With Typed Thinking*, published in ICLR 2025. 
 
 ## Getting Started
 
@@ -53,3 +54,14 @@ $ python agent.py --func test --train_from [meta thinker] --step 450 --benchmark
 $ python agent.py --func apply --load_from [meta thinker] --step 450 --train_from [sft reasoner] --benchmark all --mode fewshot --policy_mode best --n 1
 ```
 
+### Citation
+```bib
+@inproceedings{
+  wang2025typedthinker,
+  title={TypedThinker: Diversify Large Language Model Reasoning with Typed Thinking},
+  author={Danqing Wang and Jianxin Ma and Fei Fang and Lei Li},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=VIUisLx8lQ}
+}
+```
